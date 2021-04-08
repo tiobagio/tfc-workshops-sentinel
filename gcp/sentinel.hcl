@@ -1,5 +1,5 @@
 policy "enforce-mandatory-labels" {
-    enforcement_level = "hard-mandatory"
+    enforcement_level = "soft-mandatory"
 }
 
 module "tfplan-functions" {
